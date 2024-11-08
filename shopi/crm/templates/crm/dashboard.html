@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <a href="{% url 'user-logout' %}"> Logout here </a>
+        <title>
+            shopi diskon gila wadidaw!!  
+        </title>
+        <style>
+            div {
+                margin: auto;
+            }
+            #logout {
+                background-color: darkblue;
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                text-align: center;
+                text-decoration: none;
+                position: absolute;
+                left: 93%;
+                top: 20px;
+            }
+            #search-bar {
+                padding: 5px;
+                width: 1000px;
+                position: absolute;
+                left: 13%;
+            }
+            #add-item {
+                background-color: green;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                position: absolute;
+                top: 20px;
+                left: 85%;
+
+            }
+            #header-content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div id="header-content">
+                <a href="Checkpoint_1.html"><img src="https://marvel-b1-cdn.bc0a.com/f00000000296536/www.elotouch.fr/media/wysiwyg/Software_Hardware_Partners/shopi.png" alt="shopi" style="width:200px;"></a>
+                <input type="text" id="search-bar" placeholder="Search...">
+                <button type="button" id="logout" onclick="alert('Logout')">Logout</button>
+            </div>
+        </header>
+
+        <main>
+            <div style="text-align: center;">
+                <button id="add-item" onclick="alert('Add Item')">Add Item</button>
+            </div>
+        </main>
+    </body>
+</html>
